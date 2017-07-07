@@ -1,0 +1,21 @@
+{
+  "name": "oleg-chulakov-studio/yii2-sentry",
+  "description": "Yii2 component for Sentry",
+  "license": "BSD 3-Clause",
+  "type": "yii2-components",
+  "require": {
+    "php": ">=5.4.0",
+    "sentry/sentry": "^1.6"
+  },
+  "authors": [
+    {
+      "name": "Lilit Babayan",
+      "email": "lb@chulakov.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "OlegChulakovStudio\\sentry\\": ""
+    }
+  }
+}

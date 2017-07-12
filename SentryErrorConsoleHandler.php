@@ -27,6 +27,10 @@ class SentryErrorConsoleHandler extends ErrorHandler
      */
     public function init()
     {
+        if (!$this->mode) {
+            return;
+        }
+
         $this->sentry = \Yii::createObject($this->sentry);
     }
 
